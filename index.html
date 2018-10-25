@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Simple video game for Heroes of Might and Magic 3 fans.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Heroes of Might and Magic game</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/gamemanager.js" type="text/javascript"></script>
+	<script src="js/player.js" type="text/javascript"></script>
+	<script src="js/enemy.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<div class="header">
+
+<p>Choose your creature...</p>
+
+</div>
+
+	<div class="interface">
+		<a href="#" onclick="GameManager.setGameStart('Thunderbird')">
+			<img src="images/thunderbird.jpg" alt ="thunderbird">
+			<div>
+				<h3>Thunderbird</h3>
+				<p>Thunderbirds are great flying units, with a strong lightning attack and great damage! However, they do not have much health but it won't stop them from being a great presence on the battlefield</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('LizardWarrior')">
+			<img src="images/lizardwarrior.jpg" alt ="lizardwarrior">
+			<div>
+				<h3>Lizard Warrior</h3>
+				<p>While they are good archers, they are pretty slow. An overall average ranged unit</p>
+			</div>
+		</a> 
+
+		<a href="#" onclick="GameManager.setGameStart('Scorpicore')">
+			<img src="images/scorpicore.jpg" alt="scorpicore">
+			<div>
+				<h3>Scorpicore</h3>
+				<p>Scorpicores have a paralyzing sting that can imobilize enemies. They deal good damage but can be vulnerable if left out in the open</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('Cerberus')">
+			<img src="images/cerberus.jpg" alt="cerberus">
+			<div>
+				<h3>Cerberus</h3>
+				<p>These hounds can attack multiple enemies at the same time and they cannot retaliate. A good choice if you want a decent lower level unit</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('Medusa')">
+			<img src="images/medusa.jpg" alt="medusa">
+			<div>
+				<h3>Medusa</h3>
+				<p>With a petrifying gaze and above average ranged damage, the medusa is the perfect damage dealer. The only problem is the small number of arrows at their disposal</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('Behemoth')">
+			<img src="images/behemoth.jpg" alt="behemoth">
+			<div>
+				<h3>Ancient Behemoth</h3>
+				<p>Who wouldn't choose the Ancient Behemoth as their champion? This beast ignores 80% of the targets Defense and is very resistant to damage.</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('Wyvern')">
+			<img src="images/wyvern.jpg" alt="wyvern">
+			<div>
+				<h3>Wyvern</h3>
+				<p>A fast and poisonous flying unit with great damage. It's only weakness is it's rather low health.</p>
+			</div>
+		</a>
+
+		<a href="#" onclick="GameManager.setGameStart('Minotaur')">
+			<img src="images/minotaur.jpg" alt="minotaur">
+			<div>
+				<h3>Minotaur</h3>
+				<p>Minotaurs are very tanky and perfect unit for almost any scenario. They always have high morale and require a lot of damage to be taken down.</p>
+			</div>
+		</a>
+	</div>
+
+
+	<div class="actions">
+	</div>
+
+
+	<div class="enemy">
+	</div>
+
+
+
+</body>
+</html>
